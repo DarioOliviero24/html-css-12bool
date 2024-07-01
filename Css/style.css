@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.my-container {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+.box {
+    height: 50px;
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+}
+.box.blue {
+    background-color: blue;
+}
+.my-row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.my-col-1 {
+    width: calc((100% / 12) * 1);
+    max-width: calc((100% / 12) * 1);
+   
+}
+
+.my-col-2 {
+    width: calc((100% / 12) * 2);
+    max-width: calc((100% / 12) * 2);
+   
+}
+
+.my-col-3 {
+    width: calc((100% / 12) * 3);
+    max-width: calc((100% / 12) * 3);
+    
+}
+
+.my-col-4 {
+    width: calc((100% / 12) * 4);
+    max-width: calc((100% / 12) * 4);
+    
+}
+
+.my-col-5 {
+    width: calc((100% / 12) * 5);
+    max-width: calc((100% / 12) * 5);
+    
+}
+
+.my-col-6 {
+    width: calc((100% / 12) * 6);
+    max-width: calc((100% / 12) * 6);
+    
+}
+
+.my-col-7 {
+    width: calc((100% / 12) * 7);
+    max-width: calc((100% / 12) * 7);
+    
+}
+
+.my-col-8 {
+    width: calc((100% / 12) * 8);
+    max-width: calc((100% / 12) * 8);
+    
+}
+
+.my-col-9 {
+    width: calc((100% / 12) * 9);
+    max-width: calc((100% / 12) * 9);
+    
+}
+
+.my-col-10 {
+    width: calc((100% / 12) * 10);
+    max-width: calc((100% / 12) * 10);
+    
+}
+
+.my-col-11 {
+    width: calc((100% / 12) * 11);
+    max-width: calc((100% / 12) * 11);
+    
+}
+
+.my-col-12 {
+    width: calc((100% / 12) * 12);
+    max-width: calc((100% / 12) * 12);
+    
+}
