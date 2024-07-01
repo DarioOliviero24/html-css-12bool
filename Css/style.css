@@ -5,6 +5,7 @@
 }
 .flex{
     display: flex;
+    justify-content: flex-end;
 }
 .border{
     padding: 1.5px;
@@ -12,6 +13,13 @@
 .border2 {
     border: 1.5px solid blue;
 }
+.margin-top{
+    margin-top: 50px;
+}
+.margin-bottom {
+    margin-bottom: 50px;
+}
+
 .padding{
     padding-top: 5px;
     padding-left: 10px;
